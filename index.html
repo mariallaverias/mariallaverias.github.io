@@ -46,7 +46,7 @@
             <div class="content">
               <header>
                 <h1>Hi, I'm Maria</h1>
-                <p>Full Stack Developer | Project Management, Business Engagement and Action Learning Initiatives
+                <p>Full Stack Developer | React, Node.Js, Express.js, MySQL
 				</p>
               </header>
               <ul class="actions">
@@ -65,14 +65,10 @@
       <h2 id="projects">About me</h2>
     </header>
     <p>
-      I'm Maria Llaverias, a full-stack developer with a career background in business and strategic
+      I'm Maria Llaverias, a full-stack developer with a background in business and strategic
       project management in a top-ranked business school. <br></br>The tech
-      world sparked my curiosity years ago when I decided to create
-      for my students a tech-business track in order to help them gain
-      basic tech literacy that could help them improve their employability, and ease their way to
-      work with technical teams from their business positions. That curiosity only became bigger over the
-      years, so I finally decided to transition myself into tech
-      this last May with a Full Stack Development Bootcamp in CodeOp.
+      world sparked my curiosity when I decided to create a tech track for business students to help them gain tech literacy and skills to work better with technical teams, while also improving their employability. That curiosity only became bigger over the
+      years, so I decided to transition myself into tech with a Full Stack Development Bootcamp in CodeOp.
     </p>
   </div>
   <div class="col-6 col-12-small">
@@ -80,11 +76,8 @@
       <h2 id="projects"></h2>
     <!-- </header> -->
     <p class="about-me">
-    Throughout my career my drivers have always been solving
-    challenges diligently and bridging gaps, to create
-    and deliver meaningful and valuable solutions to all parties
-    involved. I would love to find a match for these drivers in a 
-    future opportunity in tech.
+      Throughout my career, my drive has always been to delight customers. I put my heart into what I do and using my skills to create something valuable for someone is what I find most fulfilling:  whether it is an elaborate program or a simple connection or resource that could help something move forward. <br></br>
+      My transition to tech has provided me with additional skills to continue to solve problems, to bridge gaps, and to create value...and I can't wait to find a future role in tech that gives me the opportunity to keep on learning and matching this drive.
     </p>
   </div></section>
           
@@ -172,7 +165,7 @@
           <!-- Section -->
           <section>
             <header class="major">
-              <h2>Get in touch</h2>
+              <h2>Interested in working together?</h2>
             </header>
           
             <ul class="contact">
@@ -188,7 +181,7 @@
           <!-- Footer -->
           <footer id="footer">
             <p class="copyright">
-              &copy; Maria Llaverias 2022. All rights reserved. Built with Editorial
+              &copy; Maria Llaverias <span id="current-year"></span>. All rights reserved. Built with Editorial
               <a href="https://html5up.net">by HTML5 UP</a>.
             </p>
           </footer>
@@ -197,6 +190,11 @@
     </div>
 
     <!-- Scripts -->
+    <script> 
+    const year = document.querySelector("#current-year")
+    year.innerHTML = new Date().getFullYear()
+
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
